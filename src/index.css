@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #FAF5F0;
+    color: #201A18;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .font-editorial {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+/* Custom smooth transitions and subtle glow utilities */
+.bg-warm-canvas {
+  background-color: #FAF5F0;
+}
+
+.bg-crimson {
+  background-color: #BD3A53;
+}
+
+.text-crimson {
+  color: #BD3A53;
+}
+
+.border-cream-border {
+  border-color: #EFE6DE;
+}
+
+.bg-pure-card {
+  background-color: #FFFFFF;
+}
+
+.text-charcoal {
+  color: #201A18;
+}
+
+.text-muted-gray {
+  color: #6E625D;
+}
